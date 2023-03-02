@@ -23,4 +23,9 @@ data.slice(0,3).forEach((billionaire)=>{
 
 }
 
-// loadBillionaire();
+
+loadBillionaire();
+
+document.getElementById('show-rich-tect').addEventListener('click',function(){
+    window.open('rich-industry.html');
+})
